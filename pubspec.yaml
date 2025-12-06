@@ -1,0 +1,67 @@
+name: ratil
+description: "Personal Quran companion app for offline listening and reading with audio recitations and translations."
+publish_to: 'none'
+version: 11.2.0+112
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdfx: ^2.6.0
+  just_audio: ^0.9.41
+  just_audio_background: ^0.0.1-beta.12
+  audio_service: ^0.18.15
+  audio_session: ^0.1.25
+  url_launcher: ^6.3.0
+  http: ^1.2.2
+  path_provider: ^2.1.4
+  font_awesome_flutter: ^10.7.0
+  geolocator: ^12.0.0
+  flutter_compass: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - link/Al-Quran-Ul-KarimRecitedByQariAbdulBasitAbdulSamad.txt
+    - link/Al_Quran-English_Translation.txt
+    - link/Al_Quran-Kurdish_Translation.txt
+    - link/Quran_Al-Qari_Sharif.txt
+    - link/big-quran.txt
+    - 'link/yasser Al Dosari.txt'
+    - link/Raad-Al_Kurdi.txt
+    - link/maher.txt
+    - 'link/Khalid aljalil.txt'
+    - 'link/Hazaa Al Balushi.txt'
+    - 'link/Abdulrhman Mosad.txt'
+    - link/Fares Abbad.txt
+    - 'link/Ali-Alhuthaifi.txt'
+    - 'link/Al-Ghamdi.txt'
+    - 'link/Ahmed El Agamy.txt'
+    - 'link/Al-Minshawi.txt'
+    - 'big-quran/arabic quran.pdf'
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: asset/icon/app_icon.png
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: asset/icon/app_icon.png
+    background_color: "#000000"
+    theme_color: "#000000"
+  windows:
+    generate: true
+    image_path: asset/icon/app_icon.png
+  macos:
+    generate: true
+    image_path: asset/icon/app_icon.png
