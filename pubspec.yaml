@@ -1,7 +1,7 @@
 name: ratil
-description: "Personal Quran companion app for offline listening and reading with audio recitations and translations."
+description: "A professional, offline-first Holy Quran companion designed for immersive reading and listening, featuring distinct reciters and elegant translations."
 publish_to: 'none'
-version: 11.2.0+112
+version: 20.0.0+200
 
 environment:
   sdk: ^3.9.2
@@ -9,23 +9,63 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  pdfx: ^2.6.0
+  video_player: ^2.9.2
   just_audio: ^0.9.41
   just_audio_background: ^0.0.1-beta.12
-  audio_service: ^0.18.15
   audio_session: ^0.1.25
   url_launcher: ^6.3.0
+  flutter_secure_storage: ^9.2.2
+  root_checker_plus: ^1.0.0
+  logger: ^2.5.0
+  provider: ^6.1.2
+  share_plus: ^10.1.1
+  shared_preferences: ^2.3.2
   http: ^1.2.2
   path_provider: ^2.1.4
   font_awesome_flutter: ^10.7.0
   geolocator: ^12.0.0
   flutter_compass: ^0.8.0
+  adhan_dart: ^1.1.0
+  flutter_local_notifications: ^17.2.1
+  flutter_timezone: ^5.0.1
+  timezone: ^0.9.4
+  hijri: ^3.0.0
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  workmanager: ^0.9.0
+  percent_indicator: ^4.2.3
+  intl: ^0.19.0
+  confetti: ^0.8.0
+  muslim_data_flutter: ^1.5.0
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  permission_handler: ^11.3.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
   flutter_launcher_icons: ^0.13.1
+  build_runner: ^2.4.9
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: asset/icon/app_icon.png
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: asset/icon/app_icon.png
+    background_color: "#000000"
+    theme_color: "#000000"
+  windows:
+    generate: true
+    image_path: asset/icon/app_icon.png
+  macos:
+    generate: true
+    image_path: asset/icon/app_icon.png
 
 flutter:
   uses-material-design: true
@@ -46,22 +86,18 @@ flutter:
     - 'link/Al-Ghamdi.txt'
     - 'link/Ahmed El Agamy.txt'
     - 'link/Al-Minshawi.txt'
-    - 'big-quran/arabic quran.pdf'
-
-flutter_launcher_icons:
-  android: true
-  ios: true
-  remove_alpha_ios: true
-  image_path: asset/icon/app_icon.png
-  min_sdk_android: 21
-  web:
-    generate: true
-    image_path: asset/icon/app_icon.png
-    background_color: "#000000"
-    theme_color: "#000000"
-  windows:
-    generate: true
-    image_path: asset/icon/app_icon.png
-  macos:
-    generate: true
-    image_path: asset/icon/app_icon.png
+    - asset/video/kurdish_prayer.mp4
+    - asset/video/english_prayer.mp4
+    - asset/video/arabic_prayer.mp4
+    - asset/adhan.notifications/
+    - asset/Audio_link/
+    - asset/quran.json
+    - asset/juz.json
+    - asset/surah.json
+    - asset/tajweed/
+    - asset/translations/
+    - link/allheadan.txt
+    - link/Ayman-Roshdy-Sweed.txt
+    - link/Majid-Alzamil.txt
+    - 'link/Tariq Muhammad.txt'
+    - 'link/Ahmed Khader.txt'

@@ -1,4 +1,5 @@
 pluginManagement {
+    println("Using Java version: " + JavaVersion.current())
     val flutterSdkPath =
         run {
             val properties = java.util.Properties()

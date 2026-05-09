@@ -14,6 +14,17 @@ rootProject.layout.buildDirectory.value(newBuildDir)
 subprojects {
     val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
     project.layout.buildDirectory.value(newSubprojectBuildDir)
+
+    afterEvaluate {
+        if (project.extensions.findByName("android") != null) {
+            val android = project.extensions.getByName("android") as com.android.build.gradle.BaseExtension
+            if (android.namespace == null) {
+                print("Setting namespace for ${project.name} to ${project.group}")
+                android.namespace = project.group.toString()
+            }
+            android.compileSdkVersion(36)
+        }
+    }
 }
 
 tasks.register<Delete>("clean") {

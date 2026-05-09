@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
+import '../theme/theme_palette.dart';
 
 class CompassBackground extends StatelessWidget {
   const CompassBackground({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final palette = ThemePalette.of(context);
     return Container(
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         gradient: RadialGradient(
-          colors: [
-            Colors.white.withValues(alpha: 0.05),
-            Colors.black.withValues(alpha: 0.3),
-          ],
+          colors: [palette.cardColor, palette.background],
         ),
-        border: Border.all(color: Colors.white24),
+        border: Border.all(
+          color: palette.mutedTextColor.withValues(alpha: 0.1),
+        ),
       ),
       child: const Stack(
         children: [
@@ -40,15 +41,16 @@ class CardinalLabel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final palette = ThemePalette.of(context);
     return Align(
       alignment: alignment,
       child: Padding(
         padding: const EdgeInsets.all(8),
         child: Text(
           label,
-          style: const TextStyle(
+          style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Colors.white70,
+            color: palette.mutedTextColor,
           ),
         ),
       ),

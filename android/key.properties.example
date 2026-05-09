@@ -1,0 +1,11 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# android/key.properties.example
+#
+# Copy this file to `android/key.properties` (which is gitignored) and fill
+# in your own values.  Never commit the actual key.properties file.
+# ─────────────────────────────────────────────────────────────────────────────
+
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=release
+storeFile=app/your-release-key.jks

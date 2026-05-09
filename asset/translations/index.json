@@ -1,0 +1,422 @@
+﻿[
+    {
+        "id":  "ar.jalalayn",
+        "language":  "ar",
+        "translator":  "jalalayn",
+        "asset":  "asset/quran-master/translations/ar.jalalayn.json"
+    },
+    {
+        "id":  "ar.muyassar",
+        "language":  "ar",
+        "translator":  "muyassar",
+        "asset":  "asset/quran-master/translations/ar.muyassar.json"
+    },
+    {
+        "id":  "az.mammadaliyev",
+        "language":  "az",
+        "translator":  "mammadaliyev",
+        "asset":  "asset/quran-master/translations/az.mammadaliyev.json"
+    },
+    {
+        "id":  "az.musayev",
+        "language":  "az",
+        "translator":  "musayev",
+        "asset":  "asset/quran-master/translations/az.musayev.json"
+    },
+    {
+        "id":  "bg.theophanov",
+        "language":  "bg",
+        "translator":  "theophanov",
+        "asset":  "asset/quran-master/translations/bg.theophanov.json"
+    },
+    {
+        "id":  "bn.bengali",
+        "language":  "bn",
+        "translator":  "bengali",
+        "asset":  "asset/quran-master/translations/bn.bengali.json"
+    },
+    {
+        "id":  "bs.korkut",
+        "language":  "bs",
+        "translator":  "korkut",
+        "asset":  "asset/quran-master/translations/bs.korkut.json"
+    },
+    {
+        "id":  "bs.mlivo",
+        "language":  "bs",
+        "translator":  "mlivo",
+        "asset":  "asset/quran-master/translations/bs.mlivo.json"
+    },
+    {
+        "id":  "cs.hrbek",
+        "language":  "cs",
+        "translator":  "hrbek",
+        "asset":  "asset/quran-master/translations/cs.hrbek.json"
+    },
+    {
+        "id":  "cs.nykl",
+        "language":  "cs",
+        "translator":  "nykl",
+        "asset":  "asset/quran-master/translations/cs.nykl.json"
+    },
+    {
+        "id":  "de.aburida",
+        "language":  "de",
+        "translator":  "aburida",
+        "asset":  "asset/quran-master/translations/de.aburida.json"
+    },
+    {
+        "id":  "de.bubenheim",
+        "language":  "de",
+        "translator":  "bubenheim",
+        "asset":  "asset/quran-master/translations/de.bubenheim.json"
+    },
+    {
+        "id":  "de.khoury",
+        "language":  "de",
+        "translator":  "khoury",
+        "asset":  "asset/quran-master/translations/de.khoury.json"
+    },
+    {
+        "id":  "de.zaidan",
+        "language":  "de",
+        "translator":  "zaidan",
+        "asset":  "asset/quran-master/translations/de.zaidan.json"
+    },
+    {
+        "id":  "dv.divehi",
+        "language":  "dv",
+        "translator":  "divehi",
+        "asset":  "asset/quran-master/translations/dv.divehi.json"
+    },
+    {
+        "id":  "en.ahmedali",
+        "language":  "en",
+        "translator":  "ahmedali",
+        "asset":  "asset/quran-master/translations/en.ahmedali.json"
+    },
+    {
+        "id":  "en.ahmedraza",
+        "language":  "en",
+        "translator":  "ahmedraza",
+        "asset":  "asset/quran-master/translations/en.ahmedraza.json"
+    },
+    {
+        "id":  "en.arberry",
+        "language":  "en",
+        "translator":  "arberry",
+        "asset":  "asset/quran-master/translations/en.arberry.json"
+    },
+    {
+        "id":  "en.asad",
+        "language":  "en",
+        "translator":  "asad",
+        "asset":  "asset/quran-master/translations/en.asad.json"
+    },
+    {
+        "id":  "en.daryabadi",
+        "language":  "en",
+        "translator":  "daryabadi",
+        "asset":  "asset/quran-master/translations/en.daryabadi.json"
+    },
+    {
+        "id":  "en.hilali",
+        "language":  "en",
+        "translator":  "hilali",
+        "asset":  "asset/quran-master/translations/en.hilali.json"
+    },
+    {
+        "id":  "en.maududi",
+        "language":  "en",
+        "translator":  "maududi",
+        "asset":  "asset/quran-master/translations/en.maududi.json"
+    },
+    {
+        "id":  "en.pickthall",
+        "language":  "en",
+        "translator":  "pickthall",
+        "asset":  "asset/quran-master/translations/en.pickthall.json"
+    },
+    {
+        "id":  "en.qaribullah",
+        "language":  "en",
+        "translator":  "qaribullah",
+        "asset":  "asset/quran-master/translations/en.qaribullah.json"
+    },
+    {
+        "id":  "en.sahih",
+        "language":  "en",
+        "translator":  "sahih",
+        "asset":  "asset/quran-master/translations/en.sahih.json"
+    },
+    {
+        "id":  "en.sarwar",
+        "language":  "en",
+        "translator":  "sarwar",
+        "asset":  "asset/quran-master/translations/en.sarwar.json"
+    },
+    {
+        "id":  "en.shakir",
+        "language":  "en",
+        "translator":  "shakir",
+        "asset":  "asset/quran-master/translations/en.shakir.json"
+    },
+    {
+        "id":  "en.yusufali",
+        "language":  "en",
+        "translator":  "yusufali",
+        "asset":  "asset/quran-master/translations/en.yusufali.json"
+    },
+    {
+        "id":  "es.asad",
+        "language":  "es",
+        "translator":  "asad",
+        "asset":  "asset/quran-master/translations/es.asad.json"
+    },
+    {
+        "id":  "es.cortes",
+        "language":  "es",
+        "translator":  "cortes",
+        "asset":  "asset/quran-master/translations/es.cortes.json"
+    },
+    {
+        "id":  "fa.ansarian",
+        "language":  "fa",
+        "translator":  "ansarian",
+        "asset":  "asset/quran-master/translations/fa.ansarian.json"
+    },
+    {
+        "id":  "fa.ayati",
+        "language":  "fa",
+        "translator":  "ayati",
+        "asset":  "asset/quran-master/translations/fa.ayati.json"
+    },
+    {
+        "id":  "fa.bahrampour",
+        "language":  "fa",
+        "translator":  "bahrampour",
+        "asset":  "asset/quran-master/translations/fa.bahrampour.json"
+    },
+    {
+        "id":  "fa.fooladvand",
+        "language":  "fa",
+        "translator":  "fooladvand",
+        "asset":  "asset/quran-master/translations/fa.fooladvand.json"
+    },
+    {
+        "id":  "fa.ghomshei",
+        "language":  "fa",
+        "translator":  "ghomshei",
+        "asset":  "asset/quran-master/translations/fa.ghomshei.json"
+    },
+    {
+        "id":  "fa.khorramdel",
+        "language":  "fa",
+        "translator":  "khorramdel",
+        "asset":  "asset/quran-master/translations/fa.khorramdel.json"
+    },
+    {
+        "id":  "fa.khorramshahi",
+        "language":  "fa",
+        "translator":  "khorramshahi",
+        "asset":  "asset/quran-master/translations/fa.khorramshahi.json"
+    },
+    {
+        "id":  "fa.makarem",
+        "language":  "fa",
+        "translator":  "makarem",
+        "asset":  "asset/quran-master/translations/fa.makarem.json"
+    },
+    {
+        "id":  "fa.moezzi",
+        "language":  "fa",
+        "translator":  "moezzi",
+        "asset":  "asset/quran-master/translations/fa.moezzi.json"
+    },
+    {
+        "id":  "fa.mojtabavi",
+        "language":  "fa",
+        "translator":  "mojtabavi",
+        "asset":  "asset/quran-master/translations/fa.mojtabavi.json"
+    },
+    {
+        "id":  "fr.hamidullah",
+        "language":  "fr",
+        "translator":  "hamidullah",
+        "asset":  "asset/quran-master/translations/fr.hamidullah.json"
+    },
+    {
+        "id":  "ha.gumi",
+        "language":  "ha",
+        "translator":  "gumi",
+        "asset":  "asset/quran-master/translations/ha.gumi.json"
+    },
+    {
+        "id":  "hi.farooq",
+        "language":  "hi",
+        "translator":  "farooq",
+        "asset":  "asset/quran-master/translations/hi.farooq.json"
+    },
+    {
+        "id":  "hi.hindi",
+        "language":  "hi",
+        "translator":  "hindi",
+        "asset":  "asset/quran-master/translations/hi.hindi.json"
+    },
+    {
+        "id":  "id.indonesian",
+        "language":  "id",
+        "translator":  "indonesian",
+        "asset":  "asset/quran-master/translations/id.indonesian.json"
+    },
+    {
+        "id":  "id.muntakhab",
+        "language":  "id",
+        "translator":  "muntakhab",
+        "asset":  "asset/quran-master/translations/id.muntakhab.json"
+    },
+    {
+        "id":  "it.piccardo",
+        "language":  "it",
+        "translator":  "piccardo",
+        "asset":  "asset/quran-master/translations/it.piccardo.json"
+    },
+    {
+        "id":  "ja.japanese",
+        "language":  "ja",
+        "translator":  "japanese",
+        "asset":  "asset/quran-master/translations/ja.japanese.json"
+    },
+    {
+        "id":  "ko.korean",
+        "language":  "ko",
+        "translator":  "korean",
+        "asset":  "asset/quran-master/translations/ko.korean.json"
+    },
+    {
+        "id":  "ku.asan",
+        "language":  "ku",
+        "translator":  "asan",
+        "asset":  "asset/quran-master/translations/ku.asan.json"
+    },
+    {
+        "id":  "ml.abdulhameed",
+        "language":  "ml",
+        "translator":  "abdulhameed",
+        "asset":  "asset/quran-master/translations/ml.abdulhameed.json"
+    },
+    {
+        "id":  "ms.basmeih",
+        "language":  "ms",
+        "translator":  "basmeih",
+        "asset":  "asset/quran-master/translations/ms.basmeih.json"
+    },
+    {
+        "id":  "nl.keyzer",
+        "language":  "nl",
+        "translator":  "keyzer",
+        "asset":  "asset/quran-master/translations/nl.keyzer.json"
+    },
+    {
+        "id":  "no.berg",
+        "language":  "no",
+        "translator":  "berg",
+        "asset":  "asset/quran-master/translations/no.berg.json"
+    },
+    {
+        "id":  "pl.bielawskiego",
+        "language":  "pl",
+        "translator":  "bielawskiego",
+        "asset":  "asset/quran-master/translations/pl.bielawskiego.json"
+    },
+    {
+        "id":  "pt.elhayek",
+        "language":  "pt",
+        "translator":  "elhayek",
+        "asset":  "asset/quran-master/translations/pt.elhayek.json"
+    },
+    {
+        "id":  "ro.grigore",
+        "language":  "ro",
+        "translator":  "grigore",
+        "asset":  "asset/quran-master/translations/ro.grigore.json"
+    },
+    {
+        "id":  "ru.abuadel",
+        "language":  "ru",
+        "translator":  "abuadel",
+        "asset":  "asset/quran-master/translations/ru.abuadel.json"
+    },
+    {
+        "id":  "ru.krachkovsky",
+        "language":  "ru",
+        "translator":  "krachkovsky",
+        "asset":  "asset/quran-master/translations/ru.krachkovsky.json"
+    },
+    {
+        "id":  "ru.kuliev",
+        "language":  "ru",
+        "translator":  "kuliev",
+        "asset":  "asset/quran-master/translations/ru.kuliev.json"
+    },
+    {
+        "id":  "ru.muntahab",
+        "language":  "ru",
+        "translator":  "muntahab",
+        "asset":  "asset/quran-master/translations/ru.muntahab.json"
+    },
+    {
+        "id":  "ru.osmanov",
+        "language":  "ru",
+        "translator":  "osmanov",
+        "asset":  "asset/quran-master/translations/ru.osmanov.json"
+    },
+    {
+        "id":  "ru.porokhova",
+        "language":  "ru",
+        "translator":  "porokhova",
+        "asset":  "asset/quran-master/translations/ru.porokhova.json"
+    },
+    {
+        "id":  "ru.sablukov",
+        "language":  "ru",
+        "translator":  "sablukov",
+        "asset":  "asset/quran-master/translations/ru.sablukov.json"
+    },
+    {
+        "id":  "sd.amroti",
+        "language":  "sd",
+        "translator":  "amroti",
+        "asset":  "asset/quran-master/translations/sd.amroti.json"
+    },
+    {
+        "id":  "so.abduh",
+        "language":  "so",
+        "translator":  "abduh",
+        "asset":  "asset/quran-master/translations/so.abduh.json"
+    },
+    {
+        "id":  "sq.ahmeti",
+        "language":  "sq",
+        "translator":  "ahmeti",
+        "asset":  "asset/quran-master/translations/sq.ahmeti.json"
+    },
+    {
+        "id":  "sq.mehdiu",
+        "language":  "sq",
+        "translator":  "mehdiu",
+        "asset":  "asset/quran-master/translations/sq.mehdiu.json"
+    },
+    {
+        "id":  "sq.nahi",
+        "language":  "sq",
+        "translator":  "nahi",
+        "asset":  "asset/quran-master/translations/sq.nahi.json"
+    },
+    {
+        "id":  "sv.bernstrom",
+        "language":  "sv",
+        "translator":  "bernstrom",
+        "asset":  "asset/quran-master/translations/sv.bernstrom.json"
+    }
+]

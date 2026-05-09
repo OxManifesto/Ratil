@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting</title>
+    <script>
+      (function () {
+        var path = window.location.pathname || '/';
+        var target = path.indexOf('/quran-gitub/') === 0 ? '/quran-gitub/' : '/';
+        window.location.replace(target);
+      })();
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/" />
+    </noscript>
+  </head>
+  <body>
+    <p>Redirecting to the app...</p>
+  </body>
+</html>

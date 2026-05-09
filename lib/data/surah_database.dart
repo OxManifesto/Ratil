@@ -9,7 +9,9 @@ class SurahAudio {
     this.localPath,
   });
 
-  SurahAudio withLocalPath(String? path) => SurahAudio(title: title, url: url, localPath: path);
+  SurahAudio withLocalPath(String? path) => SurahAudio(title: title,
+  url: url,
+  localPath: path);
 }
 
 // Empty placeholder; runtime loading is from remote manifests.
@@ -369,15 +371,18 @@ const List<String> kSurahTitlesKurdish = [
 
 // Specific ordering for Qari Sharif Mustafa playlist (as provided by user).
 String _stripEnglishPrefix(String value) {
-  return value.replaceFirst(RegExp(r'^\s*\d+\s*(Surah\s+)?'), '').trim();
+  return value.replaceFirst(RegExp(r'^\s*\d+\s*(Surah\s+)?'),
+  '').trim();
 }
 
 String _stripArabicPrefix(String value) {
-  return value.replaceFirst(RegExp(r'^[٠-٩0-9]+\s+'), '').trim();
+  return value.replaceFirst(RegExp(r'^[٠-٩0-9]+\s+'),
+  '').trim();
 }
 
 String _stripKurdishPrefix(String value) {
-  return value.replaceFirst(RegExp(r'^\s*[0-9]+\s+'), '').trim();
+  return value.replaceFirst(RegExp(r'^\s*[0-9]+\s+'),
+  '').trim();
 }
 
 final List<String> kSurahNamesEnglish =
@@ -502,6 +507,8 @@ const List<int> kFullSurahIndexes = [
   112,
   113,
   114,
+  113,
+  114,
 ];
 
 const List<int> kRaadSurahIndexes = [
@@ -599,6 +606,8 @@ const List<int> kRaadSurahIndexes = [
   110,
   111,
   112,
+  113,
+  114,
   113,
   114,
 ];
@@ -725,4 +734,109 @@ const List<int> kSharifSurahIndexes = [
   76,
   77,
   89,
+];
+
+const List<int> kTariqSurahIndexes = [
+  1,
+  2,
+  12,
+  13,
+  14,
+  15,
+  18,
+  19,
+  20,
+  23,
+  25,
+  29,
+  31,
+  32,
+  36,
+  38,
+  44,
+  45,
+  47,
+  49,
+  50,
+  51,
+  52,
+  53,
+  55,
+  56,
+  60,
+  61,
+  62,
+  63,
+  64,
+  67,
+  68,
+  72,
+  73,
+  75,
+  76,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+];
+
+const List<int> kKhaderSurahIndexes = [
+  1,
+  7,
+  12,
+  15,
+  18,
+  19,
+  20,
+  21,
+  22,
+  24,
+  25,
+  27,
+  29,
+  30,
+  31,
+  32,
+  36,
+  38,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  52,
+  53,
+  54,
+  55,
+  56,
+  61,
+  64,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  75,
+  76,
+  78,
+  79,
+  80,
+  81,
+  83,
+  84,
+  86,
+  88,
+  89,
+  90,
+  91,
+  97,
+  110,
 ];

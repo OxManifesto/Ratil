@@ -728,11 +728,4 @@ const List<AsmaulHusnaEntry> kAsmaulHusna = [
     meaning: 'The Patient One',
     meaningKurdish: 'زۆر بەئارام و بردبار و خۆڕاگری',
   ),
-  AsmaulHusnaEntry(
-    number: 100,
-    arabic: 'الله',
-    transliteration: 'Allah',
-    meaning: 'worshipped',
-    meaningKurdish: 'پەرستراو',
-  ),
 ];
